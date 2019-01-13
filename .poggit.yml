@@ -4,4 +4,5 @@ branches:
 projects:
   ViewCompass:
     path: ""
+    icon: icon.png
 ...
