@@ -1,0 +1,7 @@
+name: ViewCompass
+main: nitf\pmmp\viewcompass\ViewCompassPlugin
+version: 1.0
+api: 3.0.0
+author: 2tf
+description: "ViewCompass"
+website: https://github.com/nitf/ViewCompass
