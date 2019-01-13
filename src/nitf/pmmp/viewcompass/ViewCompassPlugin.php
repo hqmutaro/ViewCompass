@@ -63,7 +63,9 @@ class ViewCompassPlugin extends PluginBase{
             if ($key === 0){
                 $strCompass = $value;
             }
-            $strCompass .= $value;
+            else{
+                $strCompass .= $value;
+            }
         }
         foreach ($needles as $subject => $replace){
             $strCompass = str_replace($subject, $replace, $strCompass);
