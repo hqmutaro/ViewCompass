@@ -59,13 +59,9 @@ class ViewCompassPlugin extends PluginBase{
         ];
 
         $compass = array_slice(array_slice($compass, (int) ($direction - floor((double) $width / 2))), 0, $width);
+        $strCompass = "";
         foreach ($compass as $key => $value){
-            if ($key === 0){
-                $strCompass = $value;
-            }
-            else{
-                $strCompass .= $value;
-            }
+            $strCompass .= $value;
         }
         foreach ($needles as $subject => $replace){
             $strCompass = str_replace($subject, $replace, $strCompass);
